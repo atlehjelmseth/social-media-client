@@ -18,3 +18,16 @@
 - The user can log in and access their profile
 - The user cannot submit the login form with invalid credentials and is shown a message
 - The user can log out with the logout button
+
+## Get started
+- npm start to initiate sass & live server
+
+## Testing
+
+#### Unit testing:
+ - npm run test-unit
+
+#### Unit testing:
+- npm run test-e2e-cli
+
+### All tests: npm run test
