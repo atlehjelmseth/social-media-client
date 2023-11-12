@@ -1,10 +1,10 @@
 const wrongEmail = "wrong-email@wrong.no";
 const wrongEmailNoroff = "wrong-email@noroff.no"
 const wrongPassword = "wrong-password";
-const correctUrl = "http://127.0.0.1:5500/?view=profile&name=atle";
+const correctUrl = "http://127.0.0.1:8080/?view=profile&name=atle";
 
 it('wrong email/not a noroff email', () => {
-  cy.visit('http://127.0.0.1:5500/');
+  cy.visit('http://127.0.0.1:8080/');
   cy.wait(1000);
   cy.get("#registerModal").should("be.visible").contains("Login").click();
   cy.wait(500);
@@ -21,7 +21,7 @@ it('wrong email/not a noroff email', () => {
 })
 
 it('invalid email/password', () => {
-  cy.visit('http://127.0.0.1:5500/');
+  cy.visit('http://127.0.0.1:8080/');
   cy.wait(1000);
   cy.get("#registerModal").should("be.visible").contains("Login").click();
   cy.wait(500);
