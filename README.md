@@ -14,7 +14,7 @@
 - The login function fetches and stores a token in browser storage
 - The logout function clears the token from browser storage
 
-### End-to End tests:
+### End-to-end tests:
 - The user can log in and access their profile
 - The user cannot submit the login form with invalid credentials and is shown a message
 - The user can log out with the logout button
@@ -27,7 +27,7 @@
 #### Unit testing:
  - npm run test-unit
 
-#### Unit testing:
+#### End-to-end testing:
 - npm run test-e2e-cli
 
 ### All tests: npm run test
